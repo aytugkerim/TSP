@@ -1,0 +1,196 @@
+body{
+	background: url(img/bg.jpg) no-repeat fixed 50% 100%;
+	background-repeat: no-repeat;
+}
+
+ul{
+	list-style: none;
+	margin-block-start: 0;
+}
+
+a{
+	text-decoration: none;
+}
+
+.header li{
+	display: inline-block;
+}
+
+.container{
+	margin: auto;
+	width: 1000px;
+	height: auto;
+}
+
+.header{
+	width: 1000px;
+	height: 50px;
+	background-color: #F6F6F6;
+}
+
+.basvuru li{
+	float: left;
+	padding-right: 10px;
+	padding-top: 15px;
+}
+
+.basvuru li a{
+	color: #051061;
+}
+
+.diller li{
+	float: right;
+	padding: 15px 20px;
+}
+
+.diller li a{
+	color: #051061;
+	font-size: 13px;
+}
+
+.diller img{
+	float: left;
+	padding-right: 6px;
+}
+
+.banner{
+	width: 1000px;
+	height: 126px;
+	background-color: #FFFFFF;
+}
+
+.logo{
+	width: 266px;
+	height: 111px;
+	padding: 10px 30px;
+	float: left;
+}
+
+.banner_icon{
+	float: right;
+	padding: 40px;
+	font-size: 30px;
+	margin-left: 500px;
+}
+
+.facebook{
+	color: #385796;
+}
+
+.twitter{
+	color: #40A9DE;
+}
+
+.linkedin{
+	color: #0B80AF;
+}
+
+.nav{
+	padding-top: 10px;
+	width: 1000px;
+	height: 60px;
+	background-color: #103856;
+}
+
+.nav li a{
+	color: #FFFFFF;
+	font-weight: 700;
+	text-transform: uppercase;
+	font-family: Arial;
+}
+
+ .nav li{
+ 	float: left;
+	display: inline-block;
+	padding: 15px 20px; 	
+ }
+
+
+.content{
+	background: url(img/content.jpg);
+	width: 1000px;
+	height: 400px;
+}
+
+.section{
+	background-color: #fff;
+	width: 1000px;
+	height: 281px;
+	text-align: center;
+	color: #103856;
+}
+
+.isverenler, .ilanlar, .basvuru-yap{
+	width: 333px;
+	height: 281px;
+	float: left;
+	padding-top: 50px;
+}
+
+.isverenler p{
+	padding: 0 50px;
+	text-align: justify;
+	font-size: 15px;
+}
+
+.isverenler i, .ilanlar i, .basvuru-yap i{
+	font-size: 64px;
+}
+
+h1{
+	font-size: 25px;
+}
+
+.footer{
+	padding-top: 10px;
+	width: 1000px;
+	height: 130px;
+	background-color: #103855;
+}
+
+.footer-copy{
+	text-align: center;
+	color: #fff;
+}
+
+.isverenler:hover, .ilanlar:hover, .basvuru-yap:hover{
+	color: black;
+}
+
+.textbox{
+	border: 1px solid black;
+	border-left: none;
+	height: 28px;
+	float: right;
+	width: 140px;
+	margin-right: 10px;
+	margin-top: 5px;
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+}
+
+.btn{
+	border: 1px solid black;
+	margin-top: 5px;
+	float: right;
+	height: 32px;
+	width: 30px;
+	background-color: #fff;
+	border-right: none;
+	border-top-left-radius: 5px;
+	border-bottom-left-radius: 5px;
+	padding-right: 30px;
+}
+
+.icon{
+	font-size: 20px;
+	cursor: pointer;
+}
+
+.btn:focus {outline:0;}
+.textbox:focus {outline:0;}
+
+.navbar li:hover{
+	border-bottom: 2px solid orange;
+	margin-top: -1px;
+}
